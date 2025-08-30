@@ -1,0 +1,66 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "RAG System - LIT-RAG",
+      "short_desc": "Advanced Retrieval-Augmented Generation system for document analysis and intelligent Q&A with semantic search capabilities.",
+      "description": "Built a comprehensive RAG pipeline using Python, FastAPI, and Streamlit for intelligent document processing. Integrated with Supabase for vector storage and deployed for real-time usage.",
+      "stack": ["Python", "FastAPI", "Streamlit", "Supabase", "LangChain", "OpenAI"],
+      "category": "AI/ML",
+      "thumbnail": "/images/project-thumbs/rag-system.jpg",
+      "repo_url": "/* ADD YOUR GITHUB REPO URL HERE (e.g. https://github.com/git-tarik/lit-rag) */",
+      "live_url": "/* ADD YOUR LIVE DEMO URL HERE */",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "title": "CampVerse",
+      "short_desc": "Modern web application for campground discovery and booking with responsive design and real-time features.",
+      "description": "Full-stack web application built with React and Vite, featuring campground listings, user authentication, and booking system. Containerized with Docker for easy deployment.",
+      "stack": ["React", "Vite", "Tailwind CSS", "Node.js", "Docker"],
+      "category": "Web",
+      "thumbnail": "/images/project-thumbs/campverse.jpg",
+      "repo_url": "/* ADD YOUR GITHUB REPO URL HERE (e.g. https://github.com/git-tarik/campverse) */",
+      "live_url": "/* ADD YOUR LIVE DEMO URL HERE */",
+      "featured": true
+    },
+    {
+      "id": 3,
+      "title": "HGR-ParallelCNN-XAI",
+      "short_desc": "Hand Gesture Recognition with Explainable AI using ParallelCNN architecture, SHAP, and Grad-CAM visualization.",
+      "description": "Developed an advanced hand gesture recognition system with explainable AI capabilities. Implemented ParallelCNN architecture and integrated SHAP and Grad-CAM for model interpretability.",
+      "stack": ["Python", "PyTorch", "OpenCV", "SHAP", "Grad-CAM", "NumPy"],
+      "category": "AI/ML",
+      "thumbnail": "/images/project-thumbs/hgr-xai.jpg",
+      "repo_url": "/* ADD YOUR GITHUB REPO URL HERE (e.g. https://github.com/git-tarik/hgr-parallelcnn-xai) */",
+      "live_url": "/* ADD YOUR LIVE DEMO URL HERE (if applicable) */",
+      "featured": true
+    },
+    {
+      "id": 4,
+      "title": "Medical Image Segmentation",
+      "short_desc": "U-Net based medical image segmentation pipeline using PyTorch Lightning for efficient training and deployment.",
+      "description": "Implemented a robust medical image segmentation system using U-Net architecture with PyTorch Lightning. Optimized for medical imaging datasets with data augmentation and validation pipelines.",
+      "stack": ["Python", "PyTorch Lightning", "U-Net", "OpenCV", "Medical Imaging"],
+      "category": "AI/ML",
+      "thumbnail": "/images/project-thumbs/medical-segmentation.jpg",
+      "repo_url": "/* ADD YOUR GITHUB REPO URL HERE (e.g. https://github.com/git-tarik/medical-image-segmentation) */",
+      "live_url": "/* ADD YOUR LIVE DEMO URL HERE (if applicable) */",
+      "featured": false
+    },
+    {
+      "id": 5,
+      "title": "Bilateral Plantar Classifier",
+      "short_desc": "IoT-based gait classification system using Arduino sensors and Random Forest algorithm for plantar pressure analysis.",
+      "description": "Developed an innovative gait analysis system combining Arduino hardware with machine learning. Used Random Forest algorithm to classify gait patterns from bilateral plantar pressure data.",
+      "stack": ["Arduino", "Python", "Random Forest", "IoT", "Sensors", "Data Analysis"],
+      "category": "IoT",
+      "thumbnail": "/images/project-thumbs/plantar-classifier.jpg",
+      "repo_url": "/* ADD YOUR GITHUB REPO URL HERE (e.g. https://github.com/git-tarik/bilateral-plantar-classifier) */",
+      "live_url": "/* ADD YOUR LIVE DEMO URL HERE (if applicable) */",
+      "featured": false
+    }
+  ],
+  "categories": ["All", "AI/ML", "Web", "IoT"],
+  "note": "Replace the placeholder URLs with your actual GitHub repository and live demo links. Add real project thumbnails to public/images/project-thumbs/ directory."
+}

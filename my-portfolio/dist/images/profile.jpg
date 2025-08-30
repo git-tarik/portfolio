@@ -1,0 +1,31 @@
+PLACEHOLDER PROFILE IMAGE
+
+This is a placeholder for your profile image.
+
+TO REPLACE THIS FILE:
+1. Take or choose a professional profile photo
+2. Recommended specs:
+   - Format: JPG or PNG
+   - Size: 400x400 pixels (square)
+   - File size: Under 500KB
+   - Good lighting and clear face
+3. Name it "profile.jpg" 
+4. Replace this file in the public/images/ directory
+
+CURRENT USAGE:
+- The Hero component shows a placeholder with your initials "TA"
+- Update Hero.jsx to uncomment the actual image code
+- The image is referenced in meta tags for social sharing
+
+STEPS TO ACTIVATE:
+1. Add your profile.jpg to public/images/
+2. In src/components/Hero.jsx, replace the placeholder div with:
+   <img 
+     src="/images/profile.jpg" 
+     alt="MD TARIK ANVAR - AI/ML Engineer"
+     className="w-full h-full object-cover rounded-full"
+   />
+
+Your profile image will appear in:
+- Hero section
+- Social media previews (Open Graph, Twitter cards)
