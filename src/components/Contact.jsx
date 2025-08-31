@@ -12,11 +12,11 @@ const Contact = () => {
 
   // TODO: Replace these with your actual contact information
   const contactInfo = {
-    email: "your.email@example.com", // Replace with your email
-    phone: "+91 XXXXX XXXXX", // Replace with your phone number (optional)
-    location: "Ranchi, Jharkhand, India",
-    linkedin: "https://linkedin.com/in/YOUR_LINKEDIN_USERNAME", // Replace with your LinkedIn
-    github: "https://github.com/YOUR_GITHUB_USERNAME" // Replace with your GitHub
+    email: "mdtarikanvar.cuj@gmail.com", 
+    phone: "+91 6201143306", 
+    location: "Ranchi, Jharkhand, India , 835222",
+    linkedin: "hhttps://www.linkedin.com/in/tarik-anvar/", 
+    github: "https://github.com/git-tarik" 
   }
 
   const handleInputChange = (e) => {
