@@ -91,7 +91,7 @@ const Achievements = () => {
       description: "Qualified for the semifinals of one of India's premier hackathons, competing among thousands of participants with innovative fintech solutions.",
       date: "2024",
       rank: "Semifinalist",
-      verificationUrl: "/* ADD_YOUR_CERTIFICATE_LINK_HERE */"
+      verificationUrl: "https://github.com/rohitmahali01/LIT-RAG"
     },
     {
       title: "GATE 2025 Qualified",
@@ -100,7 +100,7 @@ const Achievements = () => {
       description: "Successfully qualified the Graduate Aptitude Test in Engineering (GATE) 2025, demonstrating strong technical aptitude in Computer Science.",
       date: "2025",
       score: "Qualified",
-      verificationUrl: "/* ADD_YOUR_SCORECARD_LINK_HERE */"
+      verificationUrl: "https://drive.google.com/file/d/1I0_msoa9pNmdx0KgwI-2FAG8HbxCS3a1/view?usp=sharing"
     }
   ]
 
