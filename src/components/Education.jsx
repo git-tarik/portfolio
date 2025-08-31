@@ -129,17 +129,16 @@ const Education = () => {
                     Expected Graduation: 2026
                   </div>
                 </div>
-                
-                  <a 
-                    href="https://www.linkedin.com/in/tarik-anvar/" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="block w-full btn-outline text-center"
-                  >
-                    {/* TODO: Replace with your LinkedIn URL */}
-                    View LinkedIn
-                  </a>
-                </div>
+
+                <a 
+                  href="https://www.linkedin.com/in/tarik-anvar/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="block w-full btn-outline text-center"
+                >
+                  {/* TODO: Replace with your LinkedIn URL */}
+                  View LinkedIn
+                </a>
               </div>
             </div>
           </div>
@@ -212,3 +211,4 @@ const Education = () => {
 }
 
 export default Education
+
