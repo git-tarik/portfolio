@@ -7,7 +7,7 @@ const Education = () => {
     specialization: "Machine Learning & Data Science",
     university: "Central University of Jharkhand",
     location: "Ranchi, Jharkhand, India",
-    duration: "2021 - 2026",
+    duration: "2022 - 2027",
     cgpa: "9.06",
     year: "Fourth Year",
     highlights: [
@@ -174,10 +174,10 @@ const Education = () => {
                 </div>
               </div>
               <div className="space-y-2 text-sm text-secondary">
-                <p>// TODO: Add intermediate school name</p>
-                <p>// TODO: Add board (CBSE/State Board/etc.)</p>
-                <p>// TODO: Add year of completion</p>
-                <p>// TODO: Add percentage/grade achieved</p>
+                <p>St. Xavier's College of Ranchi</p>
+                <p>Jharkhand Academic Council</p>
+                <p>2022</p>
+                <p>87.4 %</p>
               </div>
             </div>
 
@@ -193,10 +193,10 @@ const Education = () => {
                 </div>
               </div>
               <div className="space-y-2 text-sm text-secondary">
-                <p>// TODO: Add high school name</p>
-                <p>// TODO: Add board (CBSE/State Board/etc.)</p>
-                <p>// TODO: Add year of completion</p>
-                <p>// TODO: Add percentage/grade achieved</p>
+                <p>St. Ignatius High School Gumla</p>
+                <p>Jharkhand Academic Council</p>
+                <p>2022</p>
+                <p>89.8 %</p>
               </div>
             </div>
           </div>
