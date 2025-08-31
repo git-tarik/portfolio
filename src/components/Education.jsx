@@ -129,19 +129,9 @@ const Education = () => {
                     Expected Graduation: 2026
                   </div>
                 </div>
-
-                {/* Quick Links */}
-                <div className="space-y-3">
-                  {/* Resume download links removed as requested */}
-                  {/* <a 
-                    href="/resume.pdf" 
-                    download="MD_TARIK_ANVAR_Resume.pdf"
-                    className="block w-full btn-primary text-center"
-                  >
-                    Download Resume
-                  </a> */}
+                
                   <a 
-                    href="https://linkedin.com/in/YOUR_LINKEDIN_USERNAME" 
+                    href="https://www.linkedin.com/in/tarik-anvar/" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="block w-full btn-outline text-center"
