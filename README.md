@@ -4,7 +4,7 @@ A modern, responsive portfolio website built with React + Vite + Tailwind CSS, s
 
 ## 🚀 Live Demo
 
-Visit the live portfolio: [https://git-tarik.github.io/portfolio](https://git-tarik.github.io/portfolio)
+Visit the live portfolio: [https://git-tarik.github.io/portfolio](https://git-tarik.github.io/portfolio) 🌟
 
 ## 🛠️ Tech Stack
 
