@@ -7,21 +7,21 @@
       "description": "Built a comprehensive RAG pipeline using Python, FastAPI, and Streamlit for intelligent document processing. Integrated with Supabase for vector storage and deployed for real-time usage.",
       "stack": ["Python", "FastAPI", "Streamlit", "Supabase", "LangChain", "OpenAI"],
       "category": "AI/ML",
-      "thumbnail": "/images/project-thumbs/rag-system.jpg",
-      "repo_url": "/* ADD YOUR GITHUB REPO URL HERE (e.g. https://github.com/git-tarik/lit-rag) */",
-      "live_url": "/* ADD YOUR LIVE DEMO URL HERE */",
+      "thumbnail": "/portfolio/images/project-thumbs/rag-system.png",
+      "repo_url": "https://github.com/git-tarik/lit-rag-app",
+      "live_url": "https://lit-rag.streamlit.app/",
       "featured": true
     },
     {
       "id": 2,
       "title": "CampVerse",
-      "short_desc": "Modern web application for campground discovery and booking with responsive design and real-time features.",
+      "short_desc": "Modern web application for event discovery and participation with responsive design and real-time features.",
       "description": "Full-stack web application built with React and Vite, featuring campground listings, user authentication, and booking system. Containerized with Docker for easy deployment.",
       "stack": ["React", "Vite", "Tailwind CSS", "Node.js", "Docker"],
       "category": "Web",
-      "thumbnail": "/images/project-thumbs/campverse.jpg",
-      "repo_url": "/* ADD YOUR GITHUB REPO URL HERE (e.g. https://github.com/git-tarik/campverse) */",
-      "live_url": "/* ADD YOUR LIVE DEMO URL HERE */",
+      "thumbnail": "/portfolio/images/project-thumbs/campverse.png",
+      "repo_url": "https://github.com/CcpC-cuj/CampVerse",
+      "live_url": "https://campverse-alqa.onrender.com/",
       "featured": true
     },
     {
@@ -31,9 +31,9 @@
       "description": "Developed an advanced hand gesture recognition system with explainable AI capabilities. Implemented ParallelCNN architecture and integrated SHAP and Grad-CAM for model interpretability.",
       "stack": ["Python", "PyTorch", "OpenCV", "SHAP", "Grad-CAM", "NumPy"],
       "category": "AI/ML",
-      "thumbnail": "/images/project-thumbs/hgr-xai.jpg",
-      "repo_url": "/* ADD YOUR GITHUB REPO URL HERE (e.g. https://github.com/git-tarik/hgr-parallelcnn-xai) */",
-      "live_url": "/* ADD YOUR LIVE DEMO URL HERE (if applicable) */",
+      "thumbnail": "/portfolio/images/project-thumbs/hgr-xai.png",
+      "repo_url": "https://github.com/git-tarik/HGR-ParallelCNN-XAI",
+      "live_url": "https://github.com/git-tarik/HGR-ParallelCNN-XAI",
       "featured": true
     },
     {
@@ -43,9 +43,9 @@
       "description": "Implemented a robust medical image segmentation system using U-Net architecture with PyTorch Lightning. Optimized for medical imaging datasets with data augmentation and validation pipelines.",
       "stack": ["Python", "PyTorch Lightning", "U-Net", "OpenCV", "Medical Imaging"],
       "category": "AI/ML",
-      "thumbnail": "/images/project-thumbs/medical-segmentation.jpg",
-      "repo_url": "/* ADD YOUR GITHUB REPO URL HERE (e.g. https://github.com/git-tarik/medical-image-segmentation) */",
-      "live_url": "/* ADD YOUR LIVE DEMO URL HERE (if applicable) */",
+      "thumbnail": "/portfolio/images/project-thumbs/medical-segmentation.png",
+      "repo_url": "https://github.com/git-tarik/medical-image-segmentation-nitr-winter24",
+      "live_url": "https://github.com/git-tarik/medical-image-segmentation-nitr-winter24",
       "featured": false
     },
     {
@@ -55,9 +55,9 @@
       "description": "Developed an innovative gait analysis system combining Arduino hardware with machine learning. Used Random Forest algorithm to classify gait patterns from bilateral plantar pressure data.",
       "stack": ["Arduino", "Python", "Random Forest", "IoT", "Sensors", "Data Analysis"],
       "category": "IoT",
-      "thumbnail": "/images/project-thumbs/plantar-classifier.jpg",
-      "repo_url": "/* ADD YOUR GITHUB REPO URL HERE (e.g. https://github.com/git-tarik/bilateral-plantar-classifier) */",
-      "live_url": "/* ADD YOUR LIVE DEMO URL HERE (if applicable) */",
+      "thumbnail": "/portfolio/images/project-thumbs/plantar-classifier.jpg",
+      "repo_url": "https://github.com/git-tarik/Bilateral-Plantar-Classifier",
+      "live_url": "https://github.com/git-tarik/Bilateral-Plantar-Classifier",
       "featured": false
     }
   ],

@@ -9,13 +9,11 @@ const Contact = () => {
     message: ''
   })
   const [isSubmitting, setIsSubmitting] = useState(false)
-
-  // TODO: Replace these with your actual contact information
   const contactInfo = {
     email: "mdtarikanvar.cuj@gmail.com", 
     phone: "+91 6201143306", 
     location: "Ranchi, Jharkhand, India  835222",
-    linkedin: "hhttps://www.linkedin.com/in/tarik-anvar/", 
+    linkedin: "https://www.linkedin.com/in/tarik-anvar/", 
     github: "https://github.com/git-tarik" 
   }
 
@@ -31,24 +29,38 @@ const Contact = () => {
     e.preventDefault()
     setIsSubmitting(true)
     
-    // TODO: Implement form submission logic
-    // This could be a service like Formspree, Netlify Forms, or your own backend
     try {
-      // Simulate form submission
-      await new Promise(resolve => setTimeout(resolve, 1000))
+      // Using Formspree for form handling - replace with your Formspree endpoint
+      const response = await fetch('https://formspree.io/f/mdtarikanvar.cuj@gmail.com', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          subject: formData.subject,
+          message: formData.message,
+          _replyto: formData.email
+        })
+      })
       
-      // For now, create a mailto link with the form data
+      if (response.ok) {
+        // Reset form
+        setFormData({ name: '', email: '', subject: '', message: '' })
+        alert('Thank you for your message! I will get back to you soon.')
+      } else {
+        throw new Error('Failed to send message')
+      }
+    } catch (error) {
+      console.error('Error sending message:', error)
+      // Fallback to mailto
       const subject = encodeURIComponent(formData.subject || 'Portfolio Contact')
       const body = encodeURIComponent(
         `Hi MD TARIK ANVAR,\n\n${formData.message}\n\nBest regards,\n${formData.name}\n${formData.email}`
       )
-      window.location.href = `mailto:${contactInfo.email}?subject=${subject}&body=${body}`
-      
-      // Reset form
-      setFormData({ name: '', email: '', subject: '', message: '' })
-      alert('Thank you for your message! Your default email client should open.')
-    } catch (error) {
-      alert('There was an error sending your message. Please try again.')
+      window.open(`mailto:mdtarikanvar.cuj@gmail.com?subject=${subject}&body=${body}`, '_blank')
+      alert('Opening your email client as fallback. Please send the message from there.')
     } finally {
       setIsSubmitting(false)
     }
@@ -74,7 +86,7 @@ const Contact = () => {
       label: 'Location',
       value: contactInfo.location,
       link: null,
-      description: 'Based in'
+      description: 'Find me here'
     }
   ]
 

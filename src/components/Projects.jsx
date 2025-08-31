@@ -52,13 +52,14 @@ const Projects = () => {
         </div>
 
         {/* Projects Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="flex flex-wrap justify-center gap-8 max-w-7xl mx-auto">
           {filteredProjects.map((project, index) => (
-            <ProjectCard
-              key={project.id}
-              project={project}
-              delay={index * 150}
-            />
+            <div key={project.id} className="w-full md:w-[calc(50%-16px)] lg:w-[calc(33.333%-22px)] max-w-sm">
+              <ProjectCard
+                project={project}
+                delay={index * 150}
+              />
+            </div>
           ))}
         </div>
 
@@ -101,12 +102,12 @@ const Projects = () => {
             <span className="inline-block mr-2">💡</span>
             More projects and contributions can be found on my{' '}
             <a 
-              href="https://github.com/YOUR_GITHUB_USERNAME" 
+              href="https://github.com/git-tarik" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-accent hover:underline font-medium"
             >
-              {/* TODO: Replace with your actual GitHub username */}
+              {"https://github.com/git-tarik"}
               GitHub profile
             </a>
           </p>

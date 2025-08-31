@@ -62,15 +62,6 @@ const Hero = () => {
                 View My Work
                 <ChevronDown size={20} />
               </button>
-              {/* Resume download button removed as requested */}
-              {/* <a 
-                href="/resume.pdf" 
-                download="MD_TARIK_ANVAR_Resume.pdf"
-                className="btn-outline flex items-center gap-2 justify-center"
-              >
-                <Download size={20} />
-                Download Resume
-              </a> */}
             </div>
 
             {/* Stats */}
@@ -111,23 +102,10 @@ const Hero = () => {
                   <div className="text-6xl text-gray-500 font-bold absolute inset-0 flex items-center justify-center" style={{display: 'none'}}>TA</div>
                 </div>
               </div>
-              
-              {/* Floating elements removed as requested */}
-              {/* <div className="absolute -top-4 -right-4 bg-white p-3 rounded-2xl shadow-lg animate-bounce">
-                <span className="text-2xl">🤖</span>
-              </div>
-              <div className="absolute -bottom-4 -left-4 bg-white p-3 rounded-2xl shadow-lg animate-bounce animation-delay-400">
-                <span className="text-2xl">💻</span>
-              </div>
-              <div className="absolute top-1/2 -right-8 bg-white p-3 rounded-2xl shadow-lg animate-bounce animation-delay-600">
-                <span className="text-2xl">⚡</span>
-              </div> */}
             </div>
           </div>
         </div>
       </div>
-
-      {/* Scroll indicator animation removed as requested */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
         <button
           onClick={scrollToSkills}

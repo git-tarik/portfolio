@@ -23,11 +23,11 @@ const Header = () => {
     { href: '#contact', label: 'Contact' },
   ]
 
-  // TODO: Replace these URLs with your actual social media links
+
   const socialLinks = {
-    github: "https://github.com/YOUR_GITHUB_USERNAME", // Replace with your GitHub URL
-    linkedin: "https://linkedin.com/in/YOUR_LINKEDIN_USERNAME", // Replace with your LinkedIn URL
-    email: "mailto:your.email@example.com" // Replace with your email
+    github: "https://github.com/git-tarik", 
+    linkedin: "https://www.linkedin.com/in/tarik-anvar/", 
+    email: "mdtarikanvar.cuj@gmail.com" 
   }
 
   const scrollToSection = (href) => {
@@ -90,20 +90,13 @@ const Header = () => {
               <Linkedin size={20} />
             </a>
             <a 
-              href={socialLinks.email}
+              href={`mailto:${socialLinks.email}`}
               className="text-secondary hover:text-accent transition-colors duration-300"
               aria-label="Send Email"
             >
               <Mail size={20} />
             </a>
-            {/* Resume download button removed as requested */}
-            {/* <a 
-              href="/resume.pdf" 
-              download="MD_TARIK_ANVAR_Resume.pdf"
-              className="btn-primary ml-4"
-            >
-              Download Resume
-            </a> */}
+            
           </div>
 
           {/* Mobile Menu Button */}
@@ -152,7 +145,7 @@ const Header = () => {
                     <Linkedin size={20} />
                   </a>
                   <a 
-                    href={socialLinks.email}
+                    href={`mailto:${socialLinks.email}`}
                     className="text-secondary hover:text-accent transition-colors duration-300"
                     aria-label="Send Email"
                   >
@@ -160,14 +153,7 @@ const Header = () => {
                   </a>
                 </div>
                 
-                {/* Mobile Resume Button removed as requested */}
-                {/* <a 
-                  href="/resume.pdf" 
-                  download="MD_TARIK_ANVAR_Resume.pdf"
-                  className="btn-primary text-center mt-4"
-                >
-                  Download Resume
-                </a> */}
+                
               </div>
             </nav>
           </div>

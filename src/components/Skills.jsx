@@ -56,12 +56,6 @@ const Skills = () => {
             A comprehensive overview of my technical expertise across various domains, 
             from AI/ML frameworks to full-stack development tools.
           </p>
-          
-          {/* Rating Explanation */}
-          <div className="flex items-center justify-center gap-2 mt-4 text-sm text-secondary">
-            <Info size={16} className="text-accent" />
-            <span>Skill ratings are self-assessed and editable in the code</span>
-          </div>
         </div>
 
         {/* Skills Grid */}

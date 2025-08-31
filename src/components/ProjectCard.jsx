@@ -25,33 +25,26 @@ const ProjectCard = ({ project, delay = 0 }) => {
     >
       {/* Project Image */}
       <div className="relative mb-4 overflow-hidden rounded-xl bg-gradient-to-br from-gray-100 to-gray-200 h-48">
-        {/* TODO: Replace with actual project images */}
-        <div className="w-full h-full flex items-center justify-center">
+        {project.thumbnail ? (
+          <img 
+            src={project.thumbnail} 
+            alt={`${project.title} preview`}
+            className="w-full h-full object-cover"
+            onError={(e) => {
+              // Fallback to emoji if image fails to load
+              e.target.style.display = 'none';
+              e.target.nextElementSibling.style.display = 'flex';
+            }}
+          />
+        ) : null}
+        {/* Fallback emoji (hidden by default) */}
+        <div className="w-full h-full flex items-center justify-center" style={{display: project.thumbnail ? 'none' : 'flex'}}>
           <div className="text-4xl text-gray-400">
             {project.category === 'AI/ML' ? '🤖' : 
              project.category === 'Web' ? '🌐' : 
              project.category === 'IoT' ? '⚡' : '💻'}
           </div>
         </div>
-        {/* 
-          Replace the div above with:
-          <img 
-            src={project.thumbnail} 
-            alt={project.title}
-            className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
-            onError={(e) => {
-              e.target.style.display = 'none'
-              e.target.nextSibling.style.display = 'flex'
-            }}
-          />
-        */}
-        
-        {/* Featured Badge removed as requested */}
-        {/* {project.featured && (
-          <div className="absolute top-3 left-3 bg-accent text-white px-3 py-1 rounded-full text-xs font-semibold">
-            Featured
-          </div>
-        )} */}
 
         {/* Category Badge */}
         <div className="absolute top-3 right-3 bg-white/90 backdrop-blur-sm text-primary px-3 py-1 rounded-full text-xs font-medium">

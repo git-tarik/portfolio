@@ -2,11 +2,10 @@ import React from 'react'
 import { Github, Linkedin, Mail, Heart, ArrowUp } from 'lucide-react'
 
 const Footer = () => {
-  // TODO: Replace these URLs with your actual social media links
   const socialLinks = {
-    github: "https://github.com/YOUR_GITHUB_USERNAME", // Replace with your GitHub URL
-    linkedin: "https://linkedin.com/in/YOUR_LINKEDIN_USERNAME", // Replace with your LinkedIn URL
-    email: "mailto:your.email@example.com" // Replace with your email
+    github: "https://github.com/YOUR_GITHUB_USERNAME", 
+    linkedin: "https://github.com/git-tarik", 
+    email: "mdtarikanvar.cuj@gmail.com" 
   }
 
   const scrollToTop = () => {
@@ -46,7 +45,7 @@ const Footer = () => {
             {/* Social Links */}
             <div className="flex gap-4">
               <a 
-                href={socialLinks.github}
+                href={"https://github.com/git-tarik"}
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-3 bg-white/10 hover:bg-accent hover:scale-110 rounded-lg transition-all duration-300"
@@ -55,7 +54,7 @@ const Footer = () => {
                 <Github size={20} />
               </a>
               <a 
-                href={socialLinks.linkedin}
+                href={"https://www.linkedin.com/in/tarik-anvar/"}
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-3 bg-white/10 hover:bg-accent hover:scale-110 rounded-lg transition-all duration-300"
@@ -64,7 +63,7 @@ const Footer = () => {
                 <Linkedin size={20} />
               </a>
               <a 
-                href={socialLinks.email}
+                href={`mailto:mdtarikanvar.cuj@gmail.com`}
                 className="p-3 bg-white/10 hover:bg-accent hover:scale-110 rounded-lg transition-all duration-300"
                 aria-label="Send Email"
               >
@@ -96,15 +95,15 @@ const Footer = () => {
               <div>
                 <p className="text-sm">Email</p>
                 <a 
-                  href={socialLinks.email}
+                  href={`mailto:mdtarikanvar.cuj@gmail.com`}
                   className="hover:text-accent transition-colors duration-300"
                 >
-                  your.email@example.com
+                  mdtarikanvar.cuj@gmail.com
                 </a>
               </div>
               <div>
                 <p className="text-sm">Location</p>
-                <p>Ranchi, Jharkhand, India</p>
+                <p>Ranchi, Jharkhand, India 835222</p>
               </div>
               <div>
                 <p className="text-sm">Available for</p>
@@ -122,9 +121,7 @@ const Footer = () => {
             {/* Copyright */}
             <div className="text-gray-300 text-sm text-center md:text-left">
               <p className="flex items-center justify-center md:justify-start gap-1">
-                © {new Date().getFullYear()} MD TARIK ANVAR. Made with{' '}
-                <Heart size={16} className="text-red-500 animate-pulse" />
-                {' '}and React
+                © {new Date().getFullYear()} MD TARIK ANVAR
               </p>
             </div>
 

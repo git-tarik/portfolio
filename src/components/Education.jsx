@@ -6,7 +6,7 @@ const Education = () => {
     degree: "Integrated BTech + MTech in Computer Science & Engineering",
     specialization: "Machine Learning & Data Science",
     university: "Central University of Jharkhand",
-    location: "Ranchi, Jharkhand, India",
+    location: "Ranchi, Jharkhand, India 83522",
     duration: "2022 - 2027",
     cgpa: "9.06",
     year: "Fourth Year",
@@ -136,7 +136,7 @@ const Education = () => {
                   rel="noopener noreferrer"
                   className="block w-full btn-outline text-center"
                 >
-                  {/* TODO: Replace with your LinkedIn URL */}
+                  {}
                   View LinkedIn
                 </a>
               </div>
@@ -184,7 +184,7 @@ const Education = () => {
               <div className="space-y-2 text-sm text-secondary">
                 <p>St. Ignatius High School Gumla</p>
                 <p>Jharkhand Academic Council</p>
-                <p>2022</p>
+                <p>2020</p>
                 <p>89.8 %</p>
               </div>
             </div>

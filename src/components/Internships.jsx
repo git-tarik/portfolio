@@ -106,7 +106,7 @@ const Internships = () => {
     {
       role: "Research Intern",
       company: "MANIT Bhopal",
-      duration: "Summer 2024",
+      duration: "Summer 2025",
       location: "Bhopal, India",
       description: "Conducted research on Explainable Hand Gesture Recognition using advanced deep learning techniques. Developed ParallelCNN architecture integrated with XAI methodologies for enhanced model interpretability.",
       achievements: [
@@ -116,13 +116,13 @@ const Internships = () => {
         "Published research findings and documented methodology"
       ],
       technologies: ["Python", "PyTorch", "OpenCV", "SHAP", "Grad-CAM", "Deep Learning"],
-      certificateUrl: "/* ADD_YOUR_MANIT_CERTIFICATE_LINK_HERE */",
-      repoUrl: "/* ADD_YOUR_MANIT_PROJECT_REPO_LINK_HERE */"
+      certificateUrl: "https://drive.google.com/file/d/1eoeFZUnFLbpYB5DFRuRkEdurp4OXN60c/view?usp=sharing",
+      repoUrl: "https://github.com/git-tarik/HGR-ParallelCNN-XAI"
     },
     {
-      role: "ML Research Intern",
+      role: "Research Intern",
       company: "NIT Rourkela",
-      duration: "Winter 2023",
+      duration: "Winter 2024",
       location: "Rourkela, India",
       description: "Developed comprehensive medical image segmentation pipeline using state-of-the-art deep learning frameworks. Focused on implementing U-Net architecture with PyTorch Lightning for efficient training and deployment.",
       achievements: [
@@ -132,8 +132,8 @@ const Internships = () => {
         "Developed data preprocessing and augmentation strategies"
       ],
       technologies: ["Python", "PyTorch Lightning", "U-Net", "Medical Imaging", "Data Science"],
-      certificateUrl: "/* ADD_YOUR_NIT_CERTIFICATE_LINK_HERE */",
-      repoUrl: "/* ADD_YOUR_NIT_PROJECT_REPO_LINK_HERE */"
+      certificateUrl: "https://drive.google.com/file/d/1sFakRdEVscDojLt8vrNkFT3E7oJrDuZZ/view?usp=drive_link",
+      repoUrl: "https://github.com/git-tarik/medical-image-segmentation-nitr-winter24"
     }
   ]
 

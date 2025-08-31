@@ -8,7 +8,8 @@
         { "name": "C++", "level": 85 },
         { "name": "Java", "level": 80 },
         { "name": "JavaScript", "level": 85 },
-        { "name": "C", "level": 75 }
+        { "name": "C", "level": 75 },
+        { "name": "R", "level": 75 }
       ]
     },
     {
@@ -16,12 +17,11 @@
       "icon": "🤖",
       "skills": [
         { "name": "PyTorch", "level": 85 },
-        { "name": "TensorFlow", "level": 80 },
         { "name": "Scikit-learn", "level": 90 },
         { "name": "NumPy", "level": 95 },
         { "name": "Pandas", "level": 95 },
         { "name": "SHAP", "level": 80 },
-        { "name": "Grad-CAM", "level": 75 }
+        { "name": "LLMs", "level": 75 }
       ]
     },
     {
@@ -45,7 +45,7 @@
         { "name": "Jupyter", "level": 90 },
         { "name": "Railway", "level": 70 },
         { "name": "Supabase", "level": 75 },
-        { "name": "Arduino", "level": 70 }
+        { "name": "langchain", "level": 70 }
       ]
     }
   ],
