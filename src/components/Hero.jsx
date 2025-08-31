@@ -98,7 +98,7 @@ const Hero = () => {
                 {/* Profile image */}
                 <div className="w-72 h-72 md:w-88 md:h-88 bg-gradient-to-br from-gray-200 to-gray-300 rounded-full flex items-center justify-center relative overflow-hidden">
                   <img 
-                    src="./images/profile.jpg" 
+                    src="/portfolio/images/profile.jpg" 
                     alt="MD TARIK ANVAR - AI/ML Engineer"
                     className="w-full h-full object-cover rounded-full"
                     onError={(e) => {
