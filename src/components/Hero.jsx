@@ -95,19 +95,20 @@ const Hero = () => {
             <div className="relative">
               {/* Background circle */}
               <div className="w-80 h-80 md:w-96 md:h-96 bg-gradient-to-br from-accent/20 to-blue-500/20 rounded-full flex items-center justify-center">
-                {/* Profile image placeholder */}
+                {/* Profile image */}
                 <div className="w-72 h-72 md:w-88 md:h-88 bg-gradient-to-br from-gray-200 to-gray-300 rounded-full flex items-center justify-center relative overflow-hidden">
-                  {/* TODO: Replace this placeholder with your actual profile image */}
-                  {/* 
-                    Replace the div below with:
-                    <img 
-                      src="/images/profile.jpg" 
-                      alt="MD TARIK ANVAR - AI/ML Engineer"
-                      className="w-full h-full object-cover rounded-full"
-                    />
-                  */}
-                  <div className="text-6xl text-gray-500 font-bold">TA</div>
-                  {/* Comment: Replace profile.jpg with your image (recommended square, 400x400px) */}
+                  <img 
+                    src="/images/profile.jpg" 
+                    alt="MD TARIK ANVAR - AI/ML Engineer"
+                    className="w-full h-full object-cover rounded-full"
+                    onError={(e) => {
+                      // Fallback to initials if image fails to load
+                      e.target.style.display = 'none';
+                      e.target.nextElementSibling.style.display = 'flex';
+                    }}
+                  />
+                  {/* Fallback initials (hidden by default) */}
+                  <div className="text-6xl text-gray-500 font-bold absolute inset-0 flex items-center justify-center" style={{display: 'none'}}>TA</div>
                 </div>
               </div>
               
