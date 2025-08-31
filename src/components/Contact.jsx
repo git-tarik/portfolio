@@ -14,7 +14,7 @@ const Contact = () => {
   const contactInfo = {
     email: "mdtarikanvar.cuj@gmail.com", 
     phone: "+91 6201143306", 
-    location: "Ranchi, Jharkhand, India , 835222",
+    location: "Ranchi, Jharkhand, India  835222",
     linkedin: "hhttps://www.linkedin.com/in/tarik-anvar/", 
     github: "https://github.com/git-tarik" 
   }
