@@ -1,5 +1,5 @@
 import React from 'react'
-import { Building2, Calendar, MapPin, ExternalLink } from 'lucide-react'
+import { Building2, Calendar, MapPin, ExternalLink, Award, Github } from 'lucide-react'
 
 const InternshipCard = ({ internship, delay = 0 }) => {
   return (
@@ -57,15 +57,43 @@ const InternshipCard = ({ internship, delay = 0 }) => {
           </div>
 
           {/* Technologies */}
-          <div className="flex flex-wrap gap-2">
-            {internship.technologies.map((tech, index) => (
-              <span
-                key={index}
-                className="px-3 py-1 bg-accent/10 text-accent text-xs rounded-full font-medium"
+          <div className="mb-4">
+            <div className="flex flex-wrap gap-2">
+              {internship.technologies.map((tech, index) => (
+                <span
+                  key={index}
+                  className="px-3 py-1 bg-accent/10 text-accent text-xs rounded-full font-medium"
+                >
+                  {tech}
+                </span>
+              ))}
+            </div>
+          </div>
+
+          {/* Links */}
+          <div className="flex flex-wrap gap-3">
+            {internship.certificateUrl && (
+              <a
+                href={internship.certificateUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 px-4 py-2 bg-accent/10 text-accent rounded-lg hover:bg-accent/20 transition-colors duration-300 text-sm font-medium"
               >
-                {tech}
-              </span>
-            ))}
+                <Award size={16} />
+                <span>View Certificate</span>
+              </a>
+            )}
+            {internship.repoUrl && (
+              <a
+                href={internship.repoUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 px-4 py-2 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 transition-colors duration-300 text-sm font-medium"
+              >
+                <Github size={16} />
+                <span>View Repository</span>
+              </a>
+            )}
           </div>
         </div>
       </div>
@@ -87,7 +115,9 @@ const Internships = () => {
         "Achieved significant performance improvements in gesture classification",
         "Published research findings and documented methodology"
       ],
-      technologies: ["Python", "PyTorch", "OpenCV", "SHAP", "Grad-CAM", "Deep Learning"]
+      technologies: ["Python", "PyTorch", "OpenCV", "SHAP", "Grad-CAM", "Deep Learning"],
+      certificateUrl: "/* ADD_YOUR_MANIT_CERTIFICATE_LINK_HERE */",
+      repoUrl: "/* ADD_YOUR_MANIT_PROJECT_REPO_LINK_HERE */"
     },
     {
       role: "ML Research Intern",
@@ -101,7 +131,9 @@ const Internships = () => {
         "Optimized training procedures for large medical datasets",
         "Developed data preprocessing and augmentation strategies"
       ],
-      technologies: ["Python", "PyTorch Lightning", "U-Net", "Medical Imaging", "Data Science"]
+      technologies: ["Python", "PyTorch Lightning", "U-Net", "Medical Imaging", "Data Science"],
+      certificateUrl: "/* ADD_YOUR_NIT_CERTIFICATE_LINK_HERE */",
+      repoUrl: "/* ADD_YOUR_NIT_PROJECT_REPO_LINK_HERE */"
     }
   ]
 
