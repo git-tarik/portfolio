@@ -2,6 +2,8 @@
 
 A modern, responsive portfolio website built with React + Vite + Tailwind CSS, showcasing AI/ML projects, professional experience, and achievements.
 
+🔧 **Status**: Deployment fixed and verified
+
 ## 🚀 Live Demo
 
 Visit the live portfolio: [https://git-tarik.github.io/portfolio](https://git-tarik.github.io/portfolio) 🌟
